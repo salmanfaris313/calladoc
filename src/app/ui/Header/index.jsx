@@ -45,12 +45,12 @@ export default function Header({ logoSrc, variant }) {
                     className={`${mobileToggle ? 'cs_nav_list cs_active' : 'cs_nav_list'
                       }`}
                   >
-                    <li>
+                    <li  onClick={() => setMobileToggle(!mobileToggle)}>
                       <Link href="/">Home</Link>
         
                     </li>
                   
-                    <li>
+                    <li  onClick={() => setMobileToggle(!mobileToggle)}>
                       <Link href="/about">About US</Link>
                     </li>
                     <li className="menu-item-has-children">
@@ -61,59 +61,59 @@ export default function Header({ logoSrc, variant }) {
                       <Link href="/PrimaryCareVirtualConsultation">Primary Care Virtual Consultation</Link>
                       <DropDown>
                         <ul className='newlistdrop'>
-                          <li >
+                          <li  onClick={() => setMobileToggle(!mobileToggle)} >
                           <Link href="/PrimaryCareVirtualConsultation">Primary Care Medical Consultation</Link>
                           </li>
-                          <li >
+                          <li  onClick={() => setMobileToggle(!mobileToggle)} >
                           <Link href="/PrimaryCareVirtualConsultation">Chronic Care Management</Link>
                           </li>
-                          <li >
+                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/PrimaryCareVirtualConsultation">Refill Prescription/ Get Prescription</Link>
                           </li>
-                          <li >
+                          <li  onClick={() => setMobileToggle(!mobileToggle)} >
                           <Link href="/PrimaryCareVirtualConsultation">Specialist Referrals</Link>
                           </li>
-                          <li >
+                          <li  onClick={() => setMobileToggle(!mobileToggle)} >
                           <Link href="/PrimaryCareVirtualConsultation">Follow-up Care</Link>
                           </li>
-                          <li >
+                          <li  onClick={() => setMobileToggle(!mobileToggle)} >
                           <Link href="/PrimaryCareVirtualConsultation">Clinical Dietitian Services</Link>
                           </li>
-                          <li >
+                          <li   onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/PrimaryCareVirtualConsultation">Mental Health/Psychologist Consultations</Link>
                           </li>
                          
                         </ul>
                       </DropDown>
                     </li>
-                    <li className="menu-item-has-children">
+                    <li className="menu-item-has-children" >
                       <Link href="/LifestyleManagementServices"> Lifestyle Management Services</Link>
                       <DropDown>
                         <ul className='newlistdrop'>
                     
-                          <li>
+                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/LifestyleManagementServices">Personalized Health Assessments </Link>
                           </li>
-                          <li>
+                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/LifestyleManagementServices">Supports Comorbid conditions </Link>
                           </li>
-                          <li>
+                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/LifestyleManagementServices">Disease Prevent </Link>
                           </li>
                           <li>
                           <Link href="/LifestyleManagementServices">Tracking Progress and Follow-Up: </Link>
                           </li>
-                          <li>
+                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/LifestyleManagementServices">Stress Management </Link>
                           </li>
-                          <li>
+                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/LifestyleManagementServices">Physical Activity Plans </Link>
                           </li>
 
-                          <li>
+                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/LifestyleManagementServices">Sleep Hygiene</Link>
                           </li>
-                          <li>
+                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/LifestyleManagementServices">Habit Formation and Behavioural Change </Link>
                           </li>
                          
@@ -124,10 +124,10 @@ export default function Header({ logoSrc, variant }) {
                         </ul>
                       </DropDown>
                     </li>
-                    <li>
+                    <li  onClick={() => setMobileToggle(!mobileToggle)}>
                       <Link href="">Careers</Link>
                     </li>
-                    <li>
+                    <li  onClick={() => setMobileToggle(!mobileToggle)}>
                       <Link href="/contact">Contact US</Link>
                     </li>
                    
