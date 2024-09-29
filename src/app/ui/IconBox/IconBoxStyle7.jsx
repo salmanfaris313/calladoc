@@ -13,7 +13,7 @@ export default function IconBoxStyle6({ title, subTitle,listitems,ImageUrl}) {
       <h2 className="cs_iconbox_title cs_fs_32">{parser(title)}</h2>
       <p className="cs_iconbox_subtitle m-0">{parser(subTitle)}</p>
       <ul className='listitem'>
-        {listitems?.map((items)=>{
+        {listitems?.map((items,index)=>{
           return(
             <li key={index}>{items}</li>
           )
