@@ -15,7 +15,7 @@ export default function IconBoxStyle6({ title, subTitle,listitems,ImageUrl}) {
       <ul className='listitem'>
         {listitems?.map((items)=>{
           return(
-            <li>{items}</li>
+            <li key={index}>{items}</li>
           )
         })}
         
