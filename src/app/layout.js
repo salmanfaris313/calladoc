@@ -20,9 +20,9 @@ export const metadata = {
   },
   description: 'Call Our Doctor for a Virtual Consultation No Waiting, Easy Access, and Affordable Rates!',
   openGraph: {
-    title: 'Primary Care Just One Touch! Human Care Digital Touch.',
+    title: 'Call A Doc Human Care Digital Touch.',
     description: 'Call Our Doctor for a Virtual Consultation No Waiting, Easy Access, and Affordable Rates!',
-    images: ['/openGraphImage.jpeg'],
+    images: ['/openGraphImage.jpg'],
   },
 };
 
