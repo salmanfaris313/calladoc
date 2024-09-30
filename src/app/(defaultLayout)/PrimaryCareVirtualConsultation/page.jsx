@@ -9,30 +9,31 @@ import faqImg from '../../../../public/images/home_4/faq_img.jpg';
 const departmentData = [
   {
 
-    title: 'Primary Care Medical Consultation',
+    title: 'General Medical Consultation',
     subTitle:
       'Receive medical advice for a wide range of health concerns, including acute illnesses, routine check-ups, and general health inquiries. Our doctors are available for virtual consultations to address your medical needs promptly and effectively.',
-      listitems:['General medical consultations (General/ Family Medicine) ','Acute illness management'],
+      listitems:['General medical consultations (General/ Family Medicine) ','Acute illness management','Preventive care and wellness checks-ups'],
       ImageUrl: '/images/departments/Primary-Care-Medical-Consultation.jpg',
+      listnew:'',
   },
   {
 
-    title: 'Chronic Care Management',
+    title: 'Chronic disease Management',
     subTitle:
       'Ongoing management and support for chronic conditions such as diabetes, hypertension, and asthma, helping you stay on top of your health.',
-      subTitle:
-      'Our experts helps to manage and reverse metabolic disorders such as ',
+     
     listitems:['Ongoing care for conditions such as diabetes, hypertension, and asthma',
 'Monitoring and adjusting treatment plans',
 'Patient education and support',
 'Internal Medicine/ Endocrinologist Experts Service.',
 'Combined management with clinical Dietitian.'],
+listnew:'',
 ImageUrl: '/images/departments/Chronic -Care-Management.jpg',
 
   },
   {
 
-    title: 'Refill Prescription/ Get Prescription ',
+    title: 'Prescription Management ',
     subTitle:
       'Refill prescription in every periodic timeframe without visiting the medical centre. ',
       listitems:['Any prescription that needs to be refilled every frequent ',
@@ -41,6 +42,7 @@ ImageUrl: '/images/departments/Chronic -Care-Management.jpg',
 'Advice on medication adherence and side effects',
 'Second opinion on medication undergoing.'
 ],
+listnew:'',
 ImageUrl: '/images/departments/Refill-Prescription_ Get Prescription.jpg',
   },
   {
@@ -52,6 +54,7 @@ ImageUrl: '/images/departments/Refill-Prescription_ Get Prescription.jpg',
 'Referrals and coordination for specialized treatments',
 'Follow-up care and management'
 ],
+listnew:'',
 ImageUrl: '/images/departments/Specialist-Referrals.jpg',
   },
   {
@@ -63,31 +66,41 @@ ImageUrl: '/images/departments/Specialist-Referrals.jpg',
 'Adjustments to treatment plans as needed',
 'Ongoing support and guidance'
 ],
+listnew:'',
   ImageUrl: '/images/departments/Follow-up-Care.jpg',
   },
   {
 
-    title: 'Clinical Dietitian Services: ',
+    title: 'Nutrition Support ',
     subTitle:
-      'Tailored nutritional advice from certified dietitians to help you to improve overall nutrition, achieve weight management goals, address specific health conditions like acute and chronic and manage specific dietary needs.',
-      listitems:['Personalized nutrition plans and dietary advice',
-'Weight management and dietary modifications',
-'Support for specific health conditions and dietary needs',
-'Disease management combined medical team. '
+      'Nutritional therapy in primary care includes a range of services designed to support patient health through personalized dietary intervention. These services can include',
+      listitems:['Dietary assessment ',
+'Personalized meal plans ',
+'Weight management ',
+'Chronic disease management ',
+'Nutritional education ',
+'Preventive care ',
+'Pediatric and geriatric nutrition ',
+'Sports nutrition',
+'Renal nutrition ',
+'Enteral/ Parenteral nutrition (Tube feeding)',
+
 ],
+listnew:'All the above service are essential for promoting long term Wellness and preventing the escalation of chronic conditions through diet. ',
 ImageUrl: '/images/departments/Clinical-Dietitian-Services.jpg',
   },
   {
 
-    title: 'Mental Health/Psychologist Consultations',
+    title: 'Mental Health Support',
     subTitle:
       'Access to qualified mental health professionals to help manage stress, anxiety, depression, and other mental health concerns.',
       listitems:['Consultations with mental health professionals',
 'Support for anxiety, depression, stress, and other mental health issues',
 'Counselling and therapeutic interventions'],
+listnew:'',
 ImageUrl: '/images/departments/Mental-Health_Psychologist-Consultations.jpg',
   },
-
+ 
 ];
 
 
@@ -99,7 +112,7 @@ const faqData = [
         'Telehealth involves providing healthcare services remotely through digital platforms, enabling you to consult a healthcare professional via video, phone, or chat without needing to visit a clinic.',
     },
     {
-      title: 'How do I book a lifestyle management consultation? ',
+      title: 'How do I book a telehealth consultation?',
       content:
         'You can book a telehealth consultation via the CallAdoc app or website by selecting the type of service and your preferred time slot.',
     },
@@ -108,6 +121,12 @@ const faqData = [
       title: 'What types of medical issues can be addressed in a telehealth consultation?',
       content:
         'Telehealth consultations are suitable for a variety of conditions, including:',
+        listitemsfaq:['Common illnesses (cold, flu, infections)',
+'Chronic disease management (diabetes, hypertension etc)',
+'Lifestyle and wellness guidance (nutrition, weight loss)',
+'Follow-up care',
+'Prescription renewals',
+]
     },
     {
       title: ' How long is the consultation?',
@@ -147,7 +166,6 @@ const faqData = [
        
     
   ];
-
 
 export default function Departments() {
   return (

@@ -11,8 +11,12 @@ export default function Newsletter({ title, ImageUrl }) {
       <div className='d-flex Licensed'>
             <Image src="/images/home_1/Dubai_Health_Authority_logo.png" width={170} height={112}></Image>
             <Image src="/images/home_1/DED-eServices-01.png" width={170} height={112}></Image>
+          
         </div>
-      
+        <div className='mt-2'>
+        <Image src="/images/home_1/mohap.jpg" width={360} height={112}></Image>
+        </div>
+       
     </div>
   );
 }

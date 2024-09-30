@@ -62,13 +62,13 @@ export default function Header({ logoSrc, variant }) {
                       <DropDown>
                         <ul className='newlistdrop'>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
-                          <Link href="/PrimaryCareVirtualConsultation">Primary Care Medical Consultation</Link>
+                          <Link href="/PrimaryCareVirtualConsultation">General Medical Consultation</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
-                          <Link href="/PrimaryCareVirtualConsultation">Chronic Care Management</Link>
+                          <Link href="/PrimaryCareVirtualConsultation">Chronic disease Management</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/PrimaryCareVirtualConsultation">Refill Prescription/ Get Prescription</Link>
+                          <Link href="/PrimaryCareVirtualConsultation">Prescription Management</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
                           <Link href="/PrimaryCareVirtualConsultation">Specialist Referrals</Link>
@@ -77,10 +77,10 @@ export default function Header({ logoSrc, variant }) {
                           <Link href="/PrimaryCareVirtualConsultation">Follow-up Care</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
-                          <Link href="/PrimaryCareVirtualConsultation">Clinical Dietitian Services</Link>
+                          <Link href="/PrimaryCareVirtualConsultation">Nutrition Support</Link>
                           </li>
                           <li   onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/PrimaryCareVirtualConsultation">Mental Health/Psychologist Consultations</Link>
+                          <Link href="/PrimaryCareVirtualConsultation">Mental Health Support</Link>
                           </li>
                          
                         </ul>
@@ -92,30 +92,25 @@ export default function Header({ logoSrc, variant }) {
                         <ul className='newlistdrop'>
                     
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Personalized Health Assessments </Link>
+                          <Link href="/LifestyleManagementServices">Personalized Health Plans </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Supports Comorbid conditions </Link>
+                          <Link href="/LifestyleManagementServices">Weight Management Programs </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Disease Prevent </Link>
+                          <Link href="/LifestyleManagementServices">Preventive Nutrition Care </Link>
                           </li>
                           <li>
-                          <Link href="/LifestyleManagementServices">Tracking Progress and Follow-Up: </Link>
+                          <Link href="/LifestyleManagementServices">Tracking Progress and Follow-Up </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Stress Management </Link>
+                          <Link href="/LifestyleManagementServices">Mental Health and Stress Management </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Physical Activity Plans </Link>
+                          <Link href="/LifestyleManagementServices">Health education and Workshop </Link>
                           </li>
 
-                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Sleep Hygiene</Link>
-                          </li>
-                          <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Habit Formation and Behavioural Change </Link>
-                          </li>
+                       
                          
                         </ul>
                       </DropDown>
@@ -204,7 +199,7 @@ export default function Header({ logoSrc, variant }) {
           <Spacing md="35" lg="50" xl="35" />
           <IconBoxStyle11
             title="Phone"
-            subTitle="+971 4 123 4567"
+            subTitle="+971 5072 46289"
             iconSrc="/images/contact/icon_1.svg"
           />
           <Spacing md="30" lg="30" xl="30" />

@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useRef, useEffect } from 'react';
 
-function AccordionItem({ title, content, isOpen, onClick }) {
+function AccordionItem({ title, content, listitemsfaq, isOpen, onClick,  }) {
   const accordionContentRef = useRef(null);
   const [contentHeight, setContentHeight] = useState(0);
 
@@ -13,8 +13,9 @@ function AccordionItem({ title, content, isOpen, onClick }) {
   }, [isOpen]);
 
   const accordionClass = isOpen ? 'cs_accordian active' : 'cs_accordian';
-
+  console.log(title)
   return (
+    
     <>
       <div className={accordionClass}>
         <h2 className="cs_accordian_head cs_heading_color" onClick={onClick}>
@@ -40,6 +41,15 @@ function AccordionItem({ title, content, isOpen, onClick }) {
         >
           <div className="cs_accordian_body" ref={accordionContentRef}>
             <p>{content}</p>
+            <ul>
+           
+            {listitemsfaq?.map((items,index) => {
+              return(
+                <li key={index}>{items}</li>
+              )
+            })}
+            </ul>
+           
           </div>
         </div>
       </div>

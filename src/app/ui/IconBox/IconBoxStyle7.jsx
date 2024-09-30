@@ -3,7 +3,7 @@ import parser from 'html-react-parser';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function IconBoxStyle6({ title, subTitle,listitems,ImageUrl}) {
+export default function IconBoxStyle6({ title, subTitle,listitems,ImageUrl,listnew}) {
   return (
     <div className="cs_post cs_style_1">
         <div className="cs_post_thumb cs_view_mouse">
@@ -20,6 +20,7 @@ export default function IconBoxStyle6({ title, subTitle,listitems,ImageUrl}) {
         })}
         
       </ul>
+    <p>{parser(listnew)}</p>
     </div>
     </div>
   );

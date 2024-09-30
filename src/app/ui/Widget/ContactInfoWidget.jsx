@@ -14,7 +14,7 @@ export default function ContactInfoWidget() {
         <i className="cs_accent_bg">
           <Icon icon="fluent:call-24-regular" />
         </i>
-        +971 4 123 4567
+        +971 5072 46289
       </li>
       <li>
         <i className="cs_accent_bg">

@@ -105,7 +105,7 @@ export default function Home() {
         infoList={[
           {
             title: 'Contact us',
-            subTitle: '+971 4 123 4567',
+            subTitle: '+971 5072 46289',
             iconUrl: '/images/contact/icon_1.svg',
           },
           {
@@ -115,7 +115,7 @@ export default function Home() {
           },
           {
             title: 'Whatsapp',
-            subTitle: '+971 4 123 4567',
+            subTitle: '+971 5072 46289',
             iconUrl: '/images/contact/whatsapp.svg',
           },
         ]}

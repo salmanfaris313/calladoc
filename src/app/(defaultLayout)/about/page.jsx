@@ -50,7 +50,7 @@ const departmentData = [
     title: 'Excellence',
     subTitle:
       ' We strive for excellence in every service we provide, ensuring top-quality medical advice and care. ',
-      ImageUrl: '/images/blog/post_1.jpeg',
+      ImageUrl: '/images/about/banner_img.jpg',
 
   },
   {

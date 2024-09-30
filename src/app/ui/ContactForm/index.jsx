@@ -10,7 +10,7 @@ export default function ContactForm() {
           <input
             type="text"
             className="cs_form_field"
-            placeholder="David John"
+            placeholder="Name"
           />
           <div className="cs_height_42 cs_height_xl_25" />
         </div>
@@ -19,7 +19,7 @@ export default function ContactForm() {
           <input
             type="email"
             className="cs_form_field"
-            placeholder="example@gmail.com"
+            placeholder="Email Address"
           />
           <div className="cs_height_42 cs_height_xl_25" />
         </div>

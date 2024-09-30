@@ -14,7 +14,7 @@ export default function ContactInfoSection({ sectionTitle }) {
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Phone"
-            subTitle="+971 4 123 4567"
+            subTitle="+971 5072 46289"
             iconSrc="/images/contact/icon_1.svg"
           />
         </div>
@@ -42,7 +42,7 @@ export default function ContactInfoSection({ sectionTitle }) {
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Phone"
-            subTitle=" +971 4 765 4321"
+            subTitle=" +971 5072 46289"
             iconSrc="/images/contact/icon_1.svg"
           />
         </div>
@@ -76,7 +76,7 @@ export default function ContactInfoSection({ sectionTitle }) {
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Phone"
-            subTitle=" +971 4 987 6543"
+            subTitle=" +971 5072 46289"
             iconSrc="/images/contact/icon_1.svg"
           />
         </div>
