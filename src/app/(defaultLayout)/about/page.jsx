@@ -15,35 +15,35 @@ const departmentData = [
     title: 'Patient-Centered Care',
     subTitle:
       'We prioritize the needs, comfort, and well-being of our patients in every interaction.',
-    ImageUrl: '/images/blog/post_1.jpeg',
+    ImageUrl: '/images/about/Patient-Centered-Care.jpg',
    
   },
   {
     title: 'Accessibility',
     subTitle:
       'We are committed to providing healthcare that is easily accessible to all, regardless of location or time.',
-      ImageUrl: '/images/blog/post_1.jpeg',
+      ImageUrl: '/images/about/Accessibility.jpg',
 
   },
   {
     title: 'Affordability',
     subTitle:
       'We aim to deliver high-quality care at reasonable rates, ensuring that healthcare remains affordable.',
-      ImageUrl: '/images/blog/post_1.jpeg',
+      ImageUrl: '/images/about/Affordability.jpg',
    
   },
   {
     title: 'Innovation',
     subTitle:
       'We embrace technology and continuously seek innovative ways to enhance the patient experience and healthcare delivery.',
-      ImageUrl: '/images/blog/post_1.jpeg',
+      ImageUrl: '/images/about/Innovation.jpg',
 
   },
   {
     title: 'Privacy & Safety',
     subTitle:
       'We uphold the highest standards of privacy and safety in all our consultations, ensuring the confidentiality and security of patient information. ',
-      ImageUrl: '/images/blog/post_1.jpeg',
+      ImageUrl: '/images/about/PrivacySafety.jpg',
    
   },
   {
@@ -57,7 +57,7 @@ const departmentData = [
     title: 'Integrity',
     subTitle:
       '  We operate with honesty, transparency, and ethical practices in all our interactions with patients and partners.',
-      ImageUrl: '/images/blog/post_1.jpeg',
+      ImageUrl: '/images/about/Integrity.jpg',
  
   },
 ];

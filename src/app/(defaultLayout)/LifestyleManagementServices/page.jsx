@@ -12,11 +12,11 @@ import faqImg from '../../../../public/images/home_4/faq_img.jpg';
 const departmentData = [
   {
 
-    title: 'Personalized Health Assessments:',
+    title: 'Personalized Health Assessments',
     subTitle:
       'We begin by understanding comprehensive evaluations of your current health status, lifestyle habits, and health concerns. Our specialists provide detailed assessments to determine areas for improvement and create a tailored plan just for you.',
   
-   ImageUrl: '/images/blog/lifestyledemo.jpg',
+   ImageUrl: '/images/lifestyle/Personalized-Health-Assessments.jpg',
   },
  
   {
@@ -29,7 +29,7 @@ const departmentData = [
 'Elevated Cholesterol-Alcoholic fatty liver/ Non-alcoholic fatty liver',
 'Thyroid (Hyperthyroidism/ Hypothyroidism/ Thyroiditis)',
 'PCOD/ PCOS/ Hormonal imbalances '],
-ImageUrl: '/images/blog/lifestyledemo.jpg',
+ImageUrl: '/images/lifestyle/Supports-Comorbid-conditions.jpg',
   },
   
   {
@@ -37,7 +37,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
     title: 'Disease Prevent ',
     subTitle:
       'Our experts take a detailed nutritional assessment to know the nutritional status to provide a medical nutrition therapy  for a chronic cases such as',
-      ImageUrl: '/images/blog/lifestyledemo.jpg',
+      ImageUrl: '/images/lifestyle/Disease-Prevent.jpg',
       listitems:['Liver disorders and diseases- Obesity / High triglycerides/ Cholesterol/ Alcoholic and Non-Alcoholic Fatty liver / Liver cirrhosis.',
 'Renal disorders and diseases- Renal/ kidney stones/ Acute/ Chronic kidney disease / End stage renal disease/ Pre- Dialysis/ Dialysis/ Renal transplant',
 'Cardiac disease',
@@ -54,7 +54,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
     title: 'Tracking Progress and Follow-Up:',
     subTitle:
       'We provide ongoing support with regular check-ins to track your progress, adjust plans as needed, and keep you motivated towards achieving your lifestyle goals.',
-      ImageUrl: '/images/blog/lifestyledemo.jpg',
+      ImageUrl: '/images/lifestyle/Tracking-Progress-and-Follow-Up.jpg',
    
   },
   {
@@ -62,7 +62,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
     title: 'Stress Management',
     subTitle:
       'Managing stress is vital for overall health. We provide stress reduction techniques, including mindfulness, relaxation exercises, and coping strategies to help you better handle lifes pressures.',
-      ImageUrl: '/images/blog/lifestyledemo.jpg',
+      ImageUrl: '/images/lifestyle/Stress-Management.jpg',
     
   },
   {
@@ -70,7 +70,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
     title: 'Physical Activity Plans ',
     subTitle:
       'Our experts will design a physical activity regimen based on your fitness level, preferences, and health goals. Whether youre aiming to increase stamina, lose weight, or simply stay active, we have a plan for you.',
-      ImageUrl: '/images/blog/lifestyledemo.jpg',
+      ImageUrl: '/images/lifestyle/Physical-Activity-Plans.jpg',
 
   },
   {
@@ -78,7 +78,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
     title: 'Sleep Hygiene',
     subTitle:
       'Quality sleep is crucial for physical and mental recovery. We offer advice on improving sleep patterns and creating a restful environment to ensure better sleep quality and duration.',
-      ImageUrl: '/images/blog/lifestyledemo.jpg',
+      ImageUrl: '/images/lifestyle/Sleep-Hygiene.jpg',
 
   },
   {
@@ -86,7 +86,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
     title: 'Habit Formation and Behavioural Change',
     subTitle:
       'Lasting changes come from building healthy habits. We help you break unproductive routines and develop positive, sustainable behaviours to improve your well-being over time.',
-      ImageUrl: '/images/blog/lifestyledemo.jpg',
+      ImageUrl: '/images/lifestyle/Habit-Formation-and-Behavioural-Change.jpg',
      
   },
 ];

@@ -25,7 +25,7 @@ export default function Footer() {
 
   
     <footer className="cs_footer cs_style_1 cs_heading_color">
-        <Link className='circle-ripple' href="https://wa.me/+971503114049" >
+        <Link className='circle-ripple' href="https://wa.me/+971507246289" >
         <Image  src="/images/contact/whatsapp.svg" height={33}
                       width={33} ></Image>
         </Link>

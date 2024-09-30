@@ -13,7 +13,7 @@ const departmentData = [
     subTitle:
       'Receive medical advice for a wide range of health concerns, including acute illnesses, routine check-ups, and general health inquiries. Our doctors are available for virtual consultations to address your medical needs promptly and effectively.',
       listitems:['General medical consultations (General/ Family Medicine) ','Acute illness management'],
-      ImageUrl: '/images/blog/lifestyledemo.jpg',
+      ImageUrl: '/images/departments/Primary-Care-Medical-Consultation.jpg',
   },
   {
 
@@ -27,7 +27,7 @@ const departmentData = [
 'Patient education and support',
 'Internal Medicine/ Endocrinologist Experts Service.',
 'Combined management with clinical Dietitian.'],
-ImageUrl: '/images/blog/lifestyledemo.jpg',
+ImageUrl: '/images/departments/Chronic -Care-Management.jpg',
 
   },
   {
@@ -41,7 +41,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
 'Advice on medication adherence and side effects',
 'Second opinion on medication undergoing.'
 ],
-ImageUrl: '/images/blog/lifestyledemo.jpg',
+ImageUrl: '/images/departments/Refill-Prescription_ Get Prescription.jpg',
   },
   {
 
@@ -52,7 +52,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
 'Referrals and coordination for specialized treatments',
 'Follow-up care and management'
 ],
-ImageUrl: '/images/blog/lifestyledemo.jpg',
+ImageUrl: '/images/departments/Specialist-Referrals.jpg',
   },
   {
 
@@ -63,7 +63,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
 'Adjustments to treatment plans as needed',
 'Ongoing support and guidance'
 ],
-  ImageUrl: '/images/blog/lifestyledemo.jpg',
+  ImageUrl: '/images/departments/Follow-up-Care.jpg',
   },
   {
 
@@ -75,7 +75,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
 'Support for specific health conditions and dietary needs',
 'Disease management combined medical team. '
 ],
-ImageUrl: '/images/blog/lifestyledemo.jpg',
+ImageUrl: '/images/departments/Clinical-Dietitian-Services.jpg',
   },
   {
 
@@ -85,7 +85,7 @@ ImageUrl: '/images/blog/lifestyledemo.jpg',
       listitems:['Consultations with mental health professionals',
 'Support for anxiety, depression, stress, and other mental health issues',
 'Counselling and therapeutic interventions'],
-ImageUrl: '/images/blog/lifestyledemo.jpg',
+ImageUrl: '/images/departments/Mental-Health_Psychologist-Consultations.jpg',
   },
 
 ];
