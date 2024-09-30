@@ -18,7 +18,6 @@ export default function FaqSectionStyle4({
       <Spacing md="72" lg="50" />
       <div className="row cs_gap_y_40">
         <div className="col-xl-8">
-         
           <Accordion variant="cs_style1 cs_type_3" data={data} />
         </div>
         <div className="col-xl-4">

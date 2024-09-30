@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useRef, useEffect } from 'react';
 
-function AccordionItem({ title, content, listitemsfaq, isOpen, onClick,  }) {
+function AccordionItem({data, title, content, listitemsfaq, isOpen, onClick,  }) {
   const accordionContentRef = useRef(null);
   const [contentHeight, setContentHeight] = useState(0);
 
@@ -13,7 +13,7 @@ function AccordionItem({ title, content, listitemsfaq, isOpen, onClick,  }) {
   }, [isOpen]);
 
   const accordionClass = isOpen ? 'cs_accordian active' : 'cs_accordian';
-  console.log(title)
+  
   return (
     
     <>
@@ -42,12 +42,12 @@ function AccordionItem({ title, content, listitemsfaq, isOpen, onClick,  }) {
           <div className="cs_accordian_body" ref={accordionContentRef}>
             <p>{content}</p>
             <ul>
-           
-            {listitemsfaq?.map((items,index) => {
-              return(
-                <li key={index}>{items}</li>
-              )
-            })}
+           {listitemsfaq?.map((item,index) =>{
+            return(
+                  <li key={index}>{item}</li>
+            )
+           })}
+            
             </ul>
            
           </div>
@@ -57,7 +57,7 @@ function AccordionItem({ title, content, listitemsfaq, isOpen, onClick,  }) {
   );
 }
 
-export default function Accordion({ data, variant }) {
+export default function Accordion({ data, variant  }) {
   const [openItemIndex, setOpenItemIndex] = useState(-1); // Initialize with -1 for no item open initially
   const [firstItemOpen, setFirstItemOpen] = useState(true); // Set the first item to open initially
 
@@ -82,15 +82,25 @@ export default function Accordion({ data, variant }) {
         className={`cs_accordians cs_heading_color ${variant ? variant : ''}`}
       >
         {data.map((item, index) => (
+          <>
+          <h3>{item.category}</h3>
           <AccordionItem
             key={index}
             title={item.title}
             content={item.content}
+            listitemsfaq={item.listitemsfaq}
             isOpen={index === openItemIndex}
             onClick={() => handleItemClick(index)}
+          
           />
+          
+          </>
+          
         ))}
+        
       </div>
+      
     </>
+    
   );
 }
