@@ -67,7 +67,7 @@ const departmentData = [
   {
     title: "Health education and Workshop",
     subTitle:
-      "Our experts will design a physical activity regimen based on your fitness level, preferences, and health goals. Whether youre aiming to increase stamina, lose weight, or simply stay active, we have a plan for you.",
+      "CallAdoc organize virtual health education sessions, workshops on topics such as stress management, healthy living, weight management strategies, sleep hygiene, chronic disease prevention, behavioural change techniques etc to help individuals to take proactive steps towards their health.",
     ImageUrl: "/images/lifestyle/Physical-Activity-Plans.jpg",
     listnew:'',
   },
