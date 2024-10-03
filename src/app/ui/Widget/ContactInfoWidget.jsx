@@ -20,7 +20,7 @@ export default function ContactInfoWidget() {
         <i className="cs_accent_bg">
           <Icon icon="bi:envelope" />
         </i>
-        info@calladoc.ae
+        hello@calladoc.ae
       </li>
     </ul>
   );
