@@ -21,7 +21,7 @@ const departmentData = [
   {
     title: 'Accessibility',
     subTitle:
-      'We are committed to providing healthcare that is easily accessible to all, regardless of location or time.',
+      'We are committed to providing healthcare that is easily accessible to all anytime, anywhere.',
       ImageUrl: '/images/about/Accessibility.jpg',
 
   },

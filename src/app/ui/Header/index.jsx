@@ -53,6 +53,8 @@ export default function Header({ logoSrc, variant }) {
                     <li  onClick={() => setMobileToggle(!mobileToggle)}>
                       <Link href="/about">About US</Link>
                     </li>
+                    
+                 
                     <li className="menu-item-has-children">
                       <Link href="/">Departments</Link>
                       <DropDown>
@@ -61,6 +63,9 @@ export default function Header({ logoSrc, variant }) {
                       <Link href="/PrimaryCareVirtualConsultation">Primary Care Virtual Consultation</Link>
                       <DropDown>
                         <ul className='newlistdrop'>
+                        <li  onClick={() => setMobileToggle(!mobileToggle)} >
+                          <Link href="/PrimaryCareVirtualConsultation">Primary Care Virtual Consultation</Link>
+                          </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
                           <Link href="/PrimaryCareVirtualConsultation">General Medical Consultation</Link>
                           </li>
@@ -79,9 +84,7 @@ export default function Header({ logoSrc, variant }) {
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
                           <Link href="/PrimaryCareVirtualConsultation">Nutrition Support</Link>
                           </li>
-                          <li   onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/PrimaryCareVirtualConsultation">Mental Health Support</Link>
-                          </li>
+                          
                          
                         </ul>
                       </DropDown>
@@ -90,7 +93,9 @@ export default function Header({ logoSrc, variant }) {
                       <Link href="/LifestyleManagementServices"> Lifestyle Management Services</Link>
                       <DropDown>
                         <ul className='newlistdrop'>
-                    
+                        <li  onClick={() => setMobileToggle(!mobileToggle)}>
+                          <Link href="/LifestyleManagementServices">Lifestyle Management Services </Link>
+                          </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
                           <Link href="/LifestyleManagementServices">Personalized Health Plans </Link>
                           </li>
@@ -205,7 +210,7 @@ export default function Header({ logoSrc, variant }) {
           <Spacing md="30" lg="30" xl="30" />
           <IconBoxStyle11
             title="Email"
-            subTitle="info@CallAdoc.ae"
+            subTitle="hello@calladoc.ae"
             iconSrc="/images/contact/icon_2.svg"
           />
           <Spacing md="30" lg="30" xl="30" />

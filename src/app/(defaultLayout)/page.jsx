@@ -18,7 +18,7 @@ const featureListData = [
     iconSrc: '/images/home_1/Convenience.svg',
     title: 'Convenience',
     subTitle:
-      'With our virtual consultation services, you can access expert medical advice from the comfort of your home, eliminating the need to wait in long queues or travel to clinics. ',
+      'With our virtual consultation services, you can access expert medical advice from the comfort of your home, eliminating the need to wait in long queues, or travel to OP clinics/hospitals. ',
   },
   {
     iconSrc: '/images/home_1/AffordableCare.svg',
@@ -33,9 +33,9 @@ const featureListData = [
   },
   {
     iconSrc: '/images/home_1/PrivacySafety.svg',
-    title: 'Privacy & Safety',
+    title: 'Patient Safety',
     subTitle:
-      'We follow strict standards to protect your privacy and ensure the safety of your personal health information in all our consultations.',
+      'Our virtual consultation helps to reduce risk of infection spread while patient health is weak. CallAdoc is well equipped with expert practitioners who is skilled in clinical decision making.',
   },
   {
     iconSrc: '/images/home_1/ExpertTeam.svg',
@@ -63,7 +63,7 @@ const featureListData = [
   },
   {
     iconSrc: '/images/home_1/HolisticApproach.svg',
-    title: 'Holistic Approach: ',
+    title: 'Holistic Approach ',
     subTitle:
       'We focus on both physical and mental well-being, ensuring a comprehensive approach to your health.',
   },

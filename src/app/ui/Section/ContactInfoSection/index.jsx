@@ -21,7 +21,7 @@ export default function ContactInfoSection({ sectionTitle }) {
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Email"
-            subTitle="info@CallAdoc.ae"
+            subTitle="hello@calladoc.ae"
             iconSrc="/images/contact/icon_2.svg"
           />
         </div>
@@ -49,7 +49,7 @@ export default function ContactInfoSection({ sectionTitle }) {
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Email"
-            subTitle="support@CallAdoc.ae"
+            subTitle="hello@calladoc.ae"
             iconSrc="/images/contact/icon_2.svg"
           />
         </div>
@@ -63,7 +63,7 @@ export default function ContactInfoSection({ sectionTitle }) {
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Email"
-            subTitle="career@CallAdoc.ae"
+            subTitle="hello@calladoc.ae"
             iconSrc="/images/contact/icon_2.svg"
           />
         </div>
@@ -83,7 +83,7 @@ export default function ContactInfoSection({ sectionTitle }) {
         <div className="col-xl-4">
           <IconBoxStyle11
             title="Email"
-            subTitle="partnerships@CallAdoc.ae"
+            subTitle="hello@calladoc.ae"
             iconSrc="/images/contact/icon_2.svg"
           />
         </div>

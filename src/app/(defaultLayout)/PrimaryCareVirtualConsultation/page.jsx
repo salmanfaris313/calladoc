@@ -91,19 +91,7 @@ const departmentData = [
       "All the above service are essential for promoting long term Wellness and preventing the escalation of chronic conditions through diet. ",
     ImageUrl: "/images/departments/Clinical-Dietitian-Services.jpg",
   },
-  {
-    title: "Mental Health Support",
-    subTitle:
-      "Access to qualified mental health professionals to help manage stress, anxiety, depression, and other mental health concerns.",
-    listitems: [
-      "Consultations with mental health professionals",
-      "Support for anxiety, depression, stress, and other mental health issues",
-      "Counselling and therapeutic interventions",
-    ],
-    listnew: "",
-    ImageUrl:
-      "/images/departments/Mental-Health_Psychologist-Consultations.jpg",
-  },
+  
 ];
 
 const faqData = [

@@ -9,8 +9,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 const menuDataOne = [
   { title: 'About Us', href: '/about' },
-  { title: 'Primary Care Virtual Consultation', href: '/departments' },
-  { title: 'Lifestyle Management Services', href: '/doctors' },
+  { title: 'Primary Care Virtual Consultation', href: '/PrimaryCareVirtualConsultation' },
+  { title: 'Lifestyle Management Services', href: '/LifestyleManagementServices' },
 ];
 const menuDataTwo = [
   { title: 'Blog', href: '/blog' },
