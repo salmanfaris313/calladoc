@@ -99,7 +99,8 @@ export default function Home() {
     <>
       <Hero
         title="Primary Care Just One Touch Away"
-        subTitle="Call Our Doctor for a Virtual Consultation </br> No Waiting, Easy Access, and Affordable Rates!"
+        subTitle="Call Our Doctor for a Virtual Consultation "
+        subTitleSecond="No Waiting, Easy Access, and Affordable Rates!"
         bgUrl="/images/home_1/hero_bg.jpeg"
         imgUrl={heroImage}
         infoList={[

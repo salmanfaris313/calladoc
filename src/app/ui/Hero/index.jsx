@@ -10,7 +10,7 @@ export default function Hero({
   imgUrl,
   videoBtnText,
   infoList,
-  btnText,
+  subTitleSecond,
   btnUrl,
 }) {
   return (
@@ -23,9 +23,9 @@ export default function Hero({
           <div className="cs_hero_text">
             <h1 className="cs_hero_title cs_fs_94">{parse(title)}</h1>
             <p className="cs_hero_subtitle cs_fs_20 cs_heading_color">
-              {parse(subTitle)}
+              {parse(subTitle)} <br/> {parse(subTitleSecond)}
             </p>
-        
+           
           </div>
           <div className="cs_hero_img">
             <Image src={imgUrl} alt="Hero" placeholder="blur" />
@@ -47,8 +47,9 @@ export default function Hero({
                       {item.title}
                     </h3>
                     <p className="cs_hero_info_subtitle cs_fs_20">
-                      {item.subTitle}
+                     {item.subTitle} <br/> {item.subTitleSecond}
                     </p>
+                    
                   </div>
                 </div>
               </div>
