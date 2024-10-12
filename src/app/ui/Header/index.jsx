@@ -4,7 +4,6 @@ import Link from 'next/link';
 import DropDown from './DropDown';
 import Spacing from '../Spacing';
 import IconBoxStyle11 from '../IconBox/IconBoxStyle11';
-import Newsletter from '../Widget/Newsletter';
 import SocialWidget from '../Widget/SocialWidget';
 import Image from 'next/image';
 

@@ -372,3 +372,27 @@ p{
   text-align: justify;
 
 }
+.bg-theme {
+  height: 100%;
+  background: #d4e1ff;
+  padding: 40px;
+  height: 100vh;
+
+  .cs_iconbox {
+    padding: 20px;
+  }
+  p {
+    text-align: center;
+}
+h2 {
+  font-size: 25px;
+}
+}
+table th {
+
+  font-size: 14px;
+}
+table td {
+
+  font-size: 14px;
+}

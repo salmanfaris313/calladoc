@@ -1,14 +1,15 @@
 import React from 'react';
 import Link from 'next/link';
-
-export default function SideMenuWidget({ title, data }) {
+import Image from 'next/image';
+import { Icon } from '@iconify/react';
+export default function SideMenuWidget({ logoSrc, data }) {
   return (
     <>
-      <h2 className="cs_sidebar_widget_title">{title}</h2>
+       <Image src={logoSrc} alt="Logo" height={28} width={250} />
       <ul>
         {data?.map((item, index) => (
           <li key={index}>
-            <Link href={item.url}>{item.title}</Link>
+            <Icon icon={item.icon} /> <Link href={item.url}>{item.title}</Link>
           </li>
         ))}
       </ul>
