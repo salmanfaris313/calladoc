@@ -16,6 +16,7 @@ const departmentData = [
 
     ImageUrl: "/images/lifestyle/Personalized-Health-Assessments.jpg",
     listnew:'',
+    id:"Personalized-Health-Plans"
   },
 
   {
@@ -25,6 +26,8 @@ const departmentData = [
     
     listnew:'',
     ImageUrl: "/images/lifestyle/Supports-Comorbid-conditions.jpg",
+    id:"Weight-Management-Programs"
+    
   },
 
   {
@@ -49,6 +52,7 @@ const departmentData = [
 'PCOS/ PCOS (Poly cystic ovarian syndrome)',
     ],
     listnew:'',
+     id:"Preventive-Nutrition-Care"
   },
   {
     title: "Tracking Progress and Follow-Up:",
@@ -56,6 +60,7 @@ const departmentData = [
       "Patient have access to continuous support through CallAdoc with regular check-ins to update their meal plans as needed based on changes in their health status, such as symptoms, lab results or treatment adjustments and keep you motivated towards achieving your lifestyle goals.",
     ImageUrl: "/images/lifestyle/Tracking-Progress-and-Follow-Up.jpg",
     listnew:'',
+    id:"Tracking-Progress-and-Follow-Up"
   },
   {
     title: "Mental Health and Stress Management:",
@@ -63,6 +68,7 @@ const departmentData = [
       "CallAdoc offers virtual counselling sessions to manage job stress, anxiety, or burnout, particularly for those in high-stress positions. Managing stress is vital for overall health. We provide stress reduction techniques, including mindfulness, relaxation exercises, and coping strategies to help you better handle life's pressures.",
     ImageUrl: "/images/lifestyle/Stress-Management.jpg",
     listnew:'',
+    id:"Mental-Health-and-Stress-Management"
   },
   {
     title: "Health education and Workshop",
@@ -70,6 +76,7 @@ const departmentData = [
       "CallAdoc organize virtual health education sessions, workshops on topics such as stress management, healthy living, weight management strategies, sleep hygiene, chronic disease prevention, behavioural change techniques etc to help individuals to take proactive steps towards their health.",
     ImageUrl: "/images/lifestyle/Physical-Activity-Plans.jpg",
     listnew:'',
+     id:"Health-education-and-Workshop"
   },
   
 ];

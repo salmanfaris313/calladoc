@@ -91,17 +91,21 @@ export default function ContactForm() {
             />
             <div className="cs_height_42 cs_height_xl_25" />
           </div>
+     
           <div className="col-lg-12">
-            <label className="cs_input_label cs_heading_color">Service</label>
-            <input
-              type="text"
-              className="cs_form_field form-control"
-              placeholder="Service"
-              value={service}
-              onChange={(event) => setService(event.target.value)}
-            />
-            <div className="cs_height_42 cs_height_xl_25" />
-          </div>
+  <label className="cs_input_label cs_heading_color">Service</label>
+  <select
+    className="cs_form_field form-control"
+    value={service}
+    onChange={(event) => setService(event.target.value)}
+  >
+    <option value="">Select a Service</option>
+    <option value="Primary Care Virtual Consultation">Primary Care Virtual Consultation</option>
+    <option value="Lifestyle Management Services">Lifestyle Management Services</option>
+  </select>
+  <div className="cs_height_42 cs_height_xl_25" />
+</div>
+
           <div className="col-lg-12">
             <label className="cs_input_label cs_heading_color">Message</label>
             <textarea

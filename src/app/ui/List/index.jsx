@@ -5,10 +5,10 @@ export default function List({ heading, iconUrl, data }) {
   return (
     <div className="cs_list cs_style_1">
       <h2 className="cs_list_title cs_medium cs_fs_24">
-        <Image src={iconUrl} alt="Icon" height={24} width={30} />
+        
         {heading}
       </h2>
-      <ul>
+      <ul className='p-0'>
         {data?.map((item, index) => (
           <li key={index}>
             {item.title && (

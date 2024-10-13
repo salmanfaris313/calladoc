@@ -66,22 +66,22 @@ export default function Header({ logoSrc, variant }) {
                           <Link href="/PrimaryCareVirtualConsultation">Primary Care Virtual Consultation</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
-                          <Link href="/PrimaryCareVirtualConsultation">General Medical Consultation</Link>
+                          <Link href="/PrimaryCareVirtualConsultation/#General-Medical-Consultation">General Medical Consultation</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
-                          <Link href="/PrimaryCareVirtualConsultation">Chronic disease Management</Link>
+                          <Link href="/PrimaryCareVirtualConsultation#Chronic-disease-Management">Chronic disease Management</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/PrimaryCareVirtualConsultation">Prescription Management</Link>
+                          <Link href="/PrimaryCareVirtualConsultation#Prescription-Management">Prescription Management</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
-                          <Link href="/PrimaryCareVirtualConsultation">Specialist Referrals</Link>
+                          <Link href="/PrimaryCareVirtualConsultation#Specialist-Referrals">Specialist Referrals</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
-                          <Link href="/PrimaryCareVirtualConsultation">Follow-up Care</Link>
+                          <Link href="/PrimaryCareVirtualConsultation/#Follow-up-Care">Follow-up Care</Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)} >
-                          <Link href="/PrimaryCareVirtualConsultation">Nutrition Support</Link>
+                          <Link href="/PrimaryCareVirtualConsultation#Nutrition-Support">Nutrition Support</Link>
                           </li>
                           
                          
@@ -96,22 +96,22 @@ export default function Header({ logoSrc, variant }) {
                           <Link href="/LifestyleManagementServices">Lifestyle Management Services </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Personalized Health Plans </Link>
+                          <Link href="/LifestyleManagementServices/#Personalized-Health-Plans">Personalized Health Plans </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Weight Management Programs </Link>
+                          <Link href="/LifestyleManagementServices/#Weight-Management-Programs">Weight Management Programs </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Preventive Nutrition Care </Link>
+                          <Link href="/LifestyleManagementServices/#Preventive-Nutrition-Care">Preventive Nutrition Care </Link>
                           </li>
                           <li>
-                          <Link href="/LifestyleManagementServices">Tracking Progress and Follow-Up </Link>
+                          <Link href="/LifestyleManagementServices/#Tracking-Progress-and-Follow-Up">Tracking Progress and Follow-Up </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Mental Health and Stress Management </Link>
+                          <Link href="/LifestyleManagementServices/#Mental-Health-and-Stress-Management">Mental Health and Stress  </Link>
                           </li>
                           <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                          <Link href="/LifestyleManagementServices">Health education and Workshop </Link>
+                          <Link href="/LifestyleManagementServices/#Health-education-and-Workshop">Health education and Workshop </Link>
                           </li>
 
                        
@@ -124,7 +124,10 @@ export default function Header({ logoSrc, variant }) {
                       </DropDown>
                     </li>
                     <li  onClick={() => setMobileToggle(!mobileToggle)}>
-                      <Link href="">Careers</Link>
+                      <Link href="/doctors">Doctors</Link>
+                    </li>
+                    <li  onClick={() => setMobileToggle(!mobileToggle)}>
+                      <Link href="/careers">Careers</Link>
                     </li>
                     <li  onClick={() => setMobileToggle(!mobileToggle)}>
                       <Link href="/contact">Contact US</Link>

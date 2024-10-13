@@ -17,6 +17,7 @@ const departmentData = [
     ],
     ImageUrl: "/images/departments/Primary-Care-Medical-Consultation.jpg",
     listnew: "",
+     id:"General-Medical-Consultation"
   },
   {
     title: "Chronic disease Management",
@@ -32,6 +33,7 @@ const departmentData = [
     ],
     listnew: "",
     ImageUrl: "/images/departments/Chronic -Care-Management.jpg",
+     id:"Chronic-disease-Management"
   },
   {
     title: "Prescription Management ",
@@ -46,6 +48,7 @@ const departmentData = [
     ],
     listnew: "",
     ImageUrl: "/images/departments/Refill-Prescription_ Get Prescription.jpg",
+         id:"Prescription-Management"
   },
   {
     title: "Specialist Referrals",
@@ -58,6 +61,7 @@ const departmentData = [
     ],
     listnew: "",
     ImageUrl: "/images/departments/Specialist-Referrals.jpg",
+    id:"Specialist-Referrals"
   },
   {
     title: "Follow-up Care",
@@ -70,6 +74,7 @@ const departmentData = [
     ],
     listnew: "",
     ImageUrl: "/images/departments/Follow-up-Care.jpg",
+    id:"Follow-up-Care"
   },
   {
     title: "Nutrition Support ",
@@ -90,6 +95,7 @@ const departmentData = [
     listnew:
       "All the above service are essential for promoting long term Wellness and preventing the escalation of chronic conditions through diet. ",
     ImageUrl: "/images/departments/Clinical-Dietitian-Services.jpg",
+    id:"Nutrition-Support"
   },
   
 ];

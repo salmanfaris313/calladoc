@@ -7,9 +7,7 @@ export default function TeamStyle2({
   imgUrl,
   department,
   name,
-  designation,
   description,
-  social,
   href,
 }) {
   return (
@@ -25,19 +23,11 @@ export default function TeamStyle2({
           <h3 className="cs_member_name cs_fs_32">
             <Link href={href}>{name}</Link>
           </h3>
-          <p className="cs_member_designation cs_heading_color cs_medium">
-            {designation}
-          </p>
+         
           <p className="cs_member_description">{description}</p>
         </div>
         <div>
-          <div className="cs_social_links">
-            {social?.map((item, index) => (
-              <Link href={item.href} key={index}>
-                <Icon icon={item.icon} />
-              </Link>
-            ))}
-          </div>
+         
         </div>
       </div>
     </div>

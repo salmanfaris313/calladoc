@@ -3,9 +3,9 @@ import parser from 'html-react-parser';
 import Link from 'next/link';
 import Image from 'next/image';
 
-export default function IconBoxStyle6({ title, subTitle,listitems,ImageUrl,listnew}) {
+export default function IconBoxStyle6({ title, subTitle,listitems,ImageUrl,listnew,id}) {
   return (
-    <div className="cs_post cs_style_1">
+    <div className="cs_post cs_style_1" id={parser(id)}> 
         <div className="cs_post_thumb cs_view_mouse">
         <Image src={ImageUrl} alt="Icon" height={379} width={526}/>
       </div>
