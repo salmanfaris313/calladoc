@@ -15,14 +15,14 @@ const poppins = Poppins({
 export const metadata = {
   title: {
     absolute: '',
-    default: 'Call A Doc',
-    template: 'Call Our Doctor for a Virtual Consultation No Waiting, Easy Access, and Affordable Rates!',
+    default: 'CallADoc | Your Trusted Digital Health Partner in the UAE',
+    template: 'Access virtual medical consultations, lifestyle management, and at-home care anytime, anywhere.',
   },
-  description: 'Call Our Doctor for a Virtual Consultation No Waiting, Easy Access, and Affordable Rates!',
+  description: 'Access virtual medical consultations, lifestyle management, and at-home care anytime, anywhere.',
   openGraph: {
-    title: 'Call A Doc Human Care Digital Touch.',
-    description: 'Call Our Doctor for a Virtual Consultation No Waiting, Easy Access, and Affordable Rates!',
-    images: ['/openGraphImage.jpg'],
+    title: 'CallADoc | Your Trusted Digital Health Partner in the UAE',
+    description: 'Access virtual medical consultations, lifestyle management, and at-home care anytime, anywhere.',
+    images: ['/openGraphImage.jpeg'],
   },
 };
 

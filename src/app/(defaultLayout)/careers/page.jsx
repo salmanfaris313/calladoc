@@ -26,24 +26,6 @@ const careerdata = [
       apply: 'Apply Now',
       href: '/careers/#Applynow',
     },
-    {
-        title: 'General Practitioner (GP)',
-        location: 'Remote Type: Part-Time',
-        headResponsibilities:'Responsibilities',
-        Responsibilities:[
-          'Conduct virtual consultations for general medical issues',
-          'Provide ongoing care and management for chronic conditions',
-         'Develop personalized treatment plans and follow-up care',
-        ],
-        headRequirements:'Requirements',
-        Requirements: [
-          'Medical degree and valid UAE medical license',
-          ' Experience in telehealth preferred',
-          'Strong communication and patient management skills',
-        ],
-        apply: 'Apply Now',
-        href: '/careers/#Applynow',
-      },
       {
         title: 'Clinical Psychologist',
         location: 'Remote Type: Part-Time',
